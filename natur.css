@@ -219,7 +219,7 @@ h2{
 
 .article img {
     height: 300px;
-    width: 600px;
+    max-width: 100%;
 }
 
 .article h3 {
