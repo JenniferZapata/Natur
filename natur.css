@@ -265,20 +265,25 @@ h2{
 
 @media screen and (max-width: 768px) {
     .row {
-        flex-direction: column; /* Cambia la dirección de los elementos a columna */
+        flex-direction: column; 
     }
 
     .row .col-md-4, .row .col-md-8 {
-        width: 100%; /* Ajusta el ancho de las columnas al 100% */
-        padding: 0; /* Elimina el padding si es necesario */
+        width: 100%; 
+        padding: 0; 
     }
 
     .row img {
-        height: auto; /* Ajusta la altura de la imagen para mantener la proporción */
-        padding: 0; /* Elimina el padding si es necesario */
+        height: auto; 
+        padding: 0; 
     }
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+}    
 
 
 
